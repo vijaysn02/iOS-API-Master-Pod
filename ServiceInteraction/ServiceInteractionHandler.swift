@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 //MARK: - Service Interaction - Generic
-publci class ServiceInteractionHandler {
+public class ServiceInteractionHandler {
     
     static public func apiCall(urlString:String,httpMethod:APIMethod,foregroundAPICall:Bool,parameters:Dictionary<String, String>?,completionBlock: @escaping (Data) -> Void) -> Void
     {
