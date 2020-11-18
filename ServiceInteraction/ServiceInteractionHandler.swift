@@ -10,9 +10,9 @@ import Foundation
 import UIKit
 
 //MARK: - Service Interaction - Generic
-class ServiceInteractionHandler {
+publci class ServiceInteractionHandler {
     
-    static func apiCall(urlString:String,httpMethod:APIMethod,foregroundAPICall:Bool,parameters:Dictionary<String, String>?,completionBlock: @escaping (Data) -> Void) -> Void
+    static public func apiCall(urlString:String,httpMethod:APIMethod,foregroundAPICall:Bool,parameters:Dictionary<String, String>?,completionBlock: @escaping (Data) -> Void) -> Void
     {
         
         
@@ -51,7 +51,7 @@ class ServiceInteractionHandler {
         })
         task.resume()
     }
-    static func apiCall(urlString:String,httpMethod:APIMethod,foregroundAPICall:Bool,parameters:Dictionary<String, String>?,completionBlock: @escaping (Data?,URLResponse?,Error?) -> Void) -> Void
+    static public func apiCall(urlString:String,httpMethod:APIMethod,foregroundAPICall:Bool,parameters:Dictionary<String, String>?,completionBlock: @escaping (Data?,URLResponse?,Error?) -> Void) -> Void
     {
         
         
@@ -90,7 +90,7 @@ class ServiceInteractionHandler {
 
 
 //MARK: - HTTP Methoda
-enum APIMethod {
+public enum APIMethod {
     
     case GET
     case POST
