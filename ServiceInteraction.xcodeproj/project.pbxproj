@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94EB3A6681E1035A11C57508 /* Pods_ServiceInteraction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AECBC3B9388F3C7E3D03B0 /* Pods_ServiceInteraction.framework */; };
 		B1A7B03E2564E92900D7424C /* ServiceInteraction.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A7B03C2564E92900D7424C /* ServiceInteraction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1A7B04B2564E97100D7424C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A7B04A2564E97100D7424C /* AppDelegate.swift */; };
 		B1A7B04D2564E97100D7424C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A7B04C2564E97100D7424C /* SceneDelegate.swift */; };
@@ -15,12 +16,16 @@
 		B1A7B0542564E97300D7424C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A7B0532564E97300D7424C /* Assets.xcassets */; };
 		B1A7B0572564E97300D7424C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A7B0552564E97300D7424C /* LaunchScreen.storyboard */; };
 		B1A7B05D2564E99E00D7424C /* ServiceInteractionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A7B05C2564E99E00D7424C /* ServiceInteractionHandler.swift */; };
-		B1A7B05E2564E99E00D7424C /* ServiceInteractionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A7B05C2564E99E00D7424C /* ServiceInteractionHandler.swift */; };
 		B1A7B0602564E9D200D7424C /* StaticNetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A7B05F2564E9D200D7424C /* StaticNetworkHandler.swift */; };
-		B1A7B0612564E9D200D7424C /* StaticNetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A7B05F2564E9D200D7424C /* StaticNetworkHandler.swift */; };
+		BB7594D85177D723977E6506 /* Pods_ServiceInteraction_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0E88881539BB52AE126144 /* Pods_ServiceInteraction_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EB8B7C9455110AFB4B4799E /* Pods-ServiceInteraction-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServiceInteraction-Example.release.xcconfig"; path = "Target Support Files/Pods-ServiceInteraction-Example/Pods-ServiceInteraction-Example.release.xcconfig"; sourceTree = "<group>"; };
+		26AECBC3B9388F3C7E3D03B0 /* Pods_ServiceInteraction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServiceInteraction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4500DA5535D5F77DC82537FB /* Pods-ServiceInteraction-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServiceInteraction-Example.debug.xcconfig"; path = "Target Support Files/Pods-ServiceInteraction-Example/Pods-ServiceInteraction-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4DB70E6AD1AD1AE0E5084460 /* Pods-ServiceInteraction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServiceInteraction.debug.xcconfig"; path = "Target Support Files/Pods-ServiceInteraction/Pods-ServiceInteraction.debug.xcconfig"; sourceTree = "<group>"; };
+		7A0E88881539BB52AE126144 /* Pods_ServiceInteraction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServiceInteraction_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A7B0392564E92900D7424C /* ServiceInteraction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ServiceInteraction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A7B03C2564E92900D7424C /* ServiceInteraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceInteraction.h; sourceTree = "<group>"; };
 		B1A7B03D2564E92900D7424C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,6 +39,7 @@
 		B1A7B0582564E97300D7424C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1A7B05C2564E99E00D7424C /* ServiceInteractionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceInteractionHandler.swift; sourceTree = "<group>"; };
 		B1A7B05F2564E9D200D7424C /* StaticNetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticNetworkHandler.swift; sourceTree = "<group>"; };
+		E26A6065BF631AD58134B298 /* Pods-ServiceInteraction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServiceInteraction.release.xcconfig"; path = "Target Support Files/Pods-ServiceInteraction/Pods-ServiceInteraction.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94EB3A6681E1035A11C57508 /* Pods_ServiceInteraction.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,18 +55,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB7594D85177D723977E6506 /* Pods_ServiceInteraction_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DC6AF7A07DBD6785E0E2285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26AECBC3B9388F3C7E3D03B0 /* Pods_ServiceInteraction.framework */,
+				7A0E88881539BB52AE126144 /* Pods_ServiceInteraction_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A087D9E079BE16FFBBB1EAC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DB70E6AD1AD1AE0E5084460 /* Pods-ServiceInteraction.debug.xcconfig */,
+				E26A6065BF631AD58134B298 /* Pods-ServiceInteraction.release.xcconfig */,
+				4500DA5535D5F77DC82537FB /* Pods-ServiceInteraction-Example.debug.xcconfig */,
+				0EB8B7C9455110AFB4B4799E /* Pods-ServiceInteraction-Example.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B1A7B02F2564E92900D7424C = {
 			isa = PBXGroup;
 			children = (
 				B1A7B03B2564E92900D7424C /* ServiceInteraction */,
 				B1A7B0492564E97100D7424C /* ServiceInteraction-Example */,
 				B1A7B03A2564E92900D7424C /* Products */,
+				A087D9E079BE16FFBBB1EAC0 /* Pods */,
+				3DC6AF7A07DBD6785E0E2285 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +146,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1A7B0412564E92900D7424C /* Build configuration list for PBXNativeTarget "ServiceInteraction" */;
 			buildPhases = (
+				97CA513AD372C112B54A4E4F /* [CP] Check Pods Manifest.lock */,
 				B1A7B0342564E92900D7424C /* Headers */,
 				B1A7B0352564E92900D7424C /* Sources */,
 				B1A7B0362564E92900D7424C /* Frameworks */,
@@ -133,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1A7B0592564E97300D7424C /* Build configuration list for PBXNativeTarget "ServiceInteraction-Example" */;
 			buildPhases = (
+				6CC286794851FF72A529A9B0 /* [CP] Check Pods Manifest.lock */,
 				B1A7B0442564E97100D7424C /* Sources */,
 				B1A7B0452564E97100D7424C /* Frameworks */,
 				B1A7B0462564E97100D7424C /* Resources */,
+				EFB5E35FCA686C880A123002 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,6 +238,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6CC286794851FF72A529A9B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ServiceInteraction-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97CA513AD372C112B54A4E4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ServiceInteraction-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFB5E35FCA686C880A123002 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ServiceInteraction-Example/Pods-ServiceInteraction-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ServiceInteraction-Example/Pods-ServiceInteraction-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ServiceInteraction-Example/Pods-ServiceInteraction-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1A7B0352564E92900D7424C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -219,9 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1A7B04F2564E97100D7424C /* ViewController.swift in Sources */,
-				B1A7B05E2564E99E00D7424C /* ServiceInteractionHandler.swift in Sources */,
 				B1A7B04B2564E97100D7424C /* AppDelegate.swift in Sources */,
-				B1A7B0612564E9D200D7424C /* StaticNetworkHandler.swift in Sources */,
 				B1A7B04D2564E97100D7424C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,6 +466,7 @@
 		};
 		B1A7B0422564E92900D7424C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB70E6AD1AD1AE0E5084460 /* Pods-ServiceInteraction.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -395,6 +492,7 @@
 		};
 		B1A7B0432564E92900D7424C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E26A6065BF631AD58134B298 /* Pods-ServiceInteraction.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -419,6 +517,7 @@
 		};
 		B1A7B05A2564E97300D7424C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4500DA5535D5F77DC82537FB /* Pods-ServiceInteraction-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -436,6 +535,7 @@
 		};
 		B1A7B05B2564E97300D7424C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB8B7C9455110AFB4B4799E /* Pods-ServiceInteraction-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

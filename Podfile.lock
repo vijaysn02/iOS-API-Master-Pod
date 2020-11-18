@@ -1,0 +1,16 @@
+PODS:
+  - ServiceInteraction (0.1.1)
+
+DEPENDENCIES:
+  - ServiceInteraction (~> 0.1.1)
+
+SPEC REPOS:
+  https://github.com/vijaysn02/API-Master-PodSpecs.git:
+    - ServiceInteraction
+
+SPEC CHECKSUMS:
+  ServiceInteraction: ebf9e2b0091579d5a5bae2343d2a3c935b67d16b
+
+PODFILE CHECKSUM: d248d18f70fffa962fc0023e4387caa94e016b39
+
+COCOAPODS: 1.9.3

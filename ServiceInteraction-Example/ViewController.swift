@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ServiceInteraction
 
 //MARK: - View Controller - Initialisation
 class ViewController: UIViewController {
